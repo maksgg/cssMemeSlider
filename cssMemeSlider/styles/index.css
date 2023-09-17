@@ -79,28 +79,26 @@ p {
 input {
   display: none;
 }
-
 #s1:checked ~ .conteiner .imgs,   
 #s1:checked ~ .foot .conteiner-text .text  { 
-    transform: translateX(0); 
-    transition: all 1s ease; 
+  transform: translateX(0); 
+  transition: all 1s ease; 
 }
 #s2:checked ~  .conteiner .imgs,
 #s2:checked ~ .foot .conteiner-text .text   {
   transform: translateX(-25%);
-    transition: all 1s ease;
+  transition: all 1s ease;
 }
 #s3:checked ~  .conteiner .imgs,
 #s3:checked ~  .foot .conteiner-text .text  {
-    transform: translateX(-50%);
-    transition: all 1s ease;  
+  transform: translateX(-50%);
+  transition: all 1s ease;  
 }
 #s4:checked ~ .conteiner .imgs,
 #s4:checked ~ .foot .conteiner-text .text  {
-    transform: translateX(-75%);
-    transition: all 1s ease; 
+  transform: translateX(-75%);
+  transition: all 1s ease; 
 }
-
 label{
   width: 1.3em;
   height: 1.3em;
@@ -108,92 +106,88 @@ label{
   cursor: pointer;
   background: #53e2ff;
 }
-
 @media (max-width: 1600px) {
   .main {
-    max-width: 60em;
-    height: 62em;
+  max-width: 60em;
+  height: 62em;
   }
   .conteiner {
-    width: 60em;
+  width: 60em;
   height: 44em;
   }
   img {
-    width: 60em;
+  width: 60em;
   height: 44em;
   }
   .foot {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
   }
   .nav {
-    margin-right: 5em;
-    margin-left: 1em;
-    width: 10em;
-    height: 5em;
+  margin-right: 5em;
+  margin-left: 1em;
+  width: 10em;
+  height: 5em;
   }
   .clicker {
-    margin-left: 6em;
+  margin-left: 6em;
   }
-  
 }
 @media (max-width: 1024px) {
   .main {
-    max-width: 40em;
-    height: 52em;
+  max-width: 40em;
+  height: 52em;
   }
   .conteiner {
     width: 40em;
   height: 34em;
   }
   img {
-    width: 40em;
+  width: 40em;
   height: 34em;
   }
   .foot {
-    display: flex;
-    flex-direction: column-reverse;
-    width: 40em;
-    height: 10em;
+  display: flex;
+  flex-direction: column-reverse;
+  width: 40em;
+  height: 10em;
   }
   .text {
-    margin-left: 1em;
+  margin-left: 1em;
   }
   .nav {
-    margin-right: 13em;
-    margin-left: 1em;
-    width: 10em;
-    height: 5em;
-  }
-  
+  margin-right: 13em;
+  margin-left: 1em;
+  width: 10em;
+  height: 5em;
+  }  
 }
 @media (max-width: 600px) {
   .main {
-    max-width: 28em;
-    height: 42em;
+  max-width: 28em;
+  height: 42em;
   }
   .conteiner {
-    width: 28em;
+  width: 28em;
   height: 24em;
   }
   img {
-    width: 28em;
+  width: 28em;
   height: 24em;
   }
   .foot {
-    display: flex;
-    flex-direction: column-reverse;
-    width: 28em;
-    height: 10em;
+  display: flex;
+  flex-direction: column-reverse;
+  width: 28em;
+  height: 10em;
   }
   .nav {
-    margin-right: 11em;
-    margin-left: 1em;
-    width: 10em;
-    height: 5em;
+  margin-right: 11em;
+  margin-left: 1em;
+  width: 10em;
+  height: 5em;
   }
   .text {
-    margin-left: 1em;
+  margin-left: 1em;
   }
-  
 }
